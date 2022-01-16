@@ -6,7 +6,7 @@ st.title("Sistema de control de emergencias CBSA")
 
 #Config
 DATE_COLUMN = 'Fecha'
-DATA_URL = ("../data/emergencias-2021.csv")
+DATA_URL = ("../emergency_system/data/emergencias-2021.csv")
 
 @st.cache
 def load_data():
@@ -16,6 +16,11 @@ def load_data():
     data['periodo']=  pd.to_datetime(data["Fecha"],format='%Y%m')
 
     data.rename(columns = {'LATITUDE': 'lat', 'LONGITUDE':'lon'}, inplace = True)
+    
+    data['lat']=data['lat'].str.replace(",",".", regex = True)
+    data['lon']=data['lon'].str.replace(",", ".", regex = True)
+    data['lat']=data['lat'].astype(float)
+    data['lon']=data['lon'].astype(float)
     return data
 
 

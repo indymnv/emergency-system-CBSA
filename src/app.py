@@ -3,12 +3,14 @@ import numpy as np
 import streamlit as st
 import plotly.figure_factory as ff
 import plotly.express as px
+from pathlib import Path
+import os
 
 st.title("Sistema de control de emergencias CBSA")
 
 #Config
 DATE_COLUMN = 'Fecha'
-DATA_URL = ("../emergency-system-CBSA/data/emergencias-2021.csv")
+DATA_URL = os.path.join(os.path.dirname(__file__), '..', 'data', 'emergencias-2021.csv')
 
 @st.cache
 def load_data():

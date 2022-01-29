@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+import plotly.figure_factory as ff
+import plotly.express as px
 
 st.title("Sistema de control de emergencias CBSA")
 
@@ -14,6 +16,7 @@ def load_data():
     data['Fecha'] = pd.to_datetime(data["Fecha"])
     data['mes'] = data[DATE_COLUMN].dt.month_name()
     data['periodo']=  pd.to_datetime(data["Fecha"],format='%Y%m')
+    data = data.sort_values('Fecha')
 
     data.rename(columns = {'LATITUDE': 'lat', 'LONGITUDE':'lon'}, inplace = True)
     
@@ -40,8 +43,10 @@ if st.checkbox('Mostrar data'):
 
 st.subheader('Cantidad de emergencias por mes')
 dft1 = data['mes'].value_counts()
-#hist_values = np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
 st.line_chart(dft1)
+
+fig = px.line(dft1)
+st.write()
 
 st.text('Mapa de emergencias')
 st.map(data)

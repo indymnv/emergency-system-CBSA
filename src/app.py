@@ -8,7 +8,7 @@ st.title("Sistema de control de emergencias CBSA")
 
 #Config
 DATE_COLUMN = 'Fecha'
-DATA_URL = ("../emergency_system/data/emergencias-2021.csv")
+DATA_URL = ("../emergency-system-CBSA/data/emergencias-2021.csv")
 
 @st.cache
 def load_data():

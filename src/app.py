@@ -29,15 +29,19 @@ def load_data():
     return data
 
 
-
+#Cantidad de emergencias
 # Create a text element and let the reader know the data is loading.
 data_load_state = st.text('cargando data..')
 # Load 10,000 rows of data into the dataframe.
 data = load_data()
+data_load_state.text('Data cargada!')
 
 # Notify the reader that the data was successfully loaded.
 
-data_load_state.text('Data cargada!')
+col1, col2, col3  = st.columns(3)
+col1.metric("Total Emergencias", value = data.shape[0])
+col2.metric("Tiempo Respuesta Promedio (minutos)", value = round(data["Tiempo respuesta"].mean(),2))
+col3.metric("Tiempo control Promedio (minutos)", value = round(data["Tiempo en controlar emergencia"].mean(),2))
 
 if st.checkbox('Mostrar data'):
     st.subheader('Raw data')

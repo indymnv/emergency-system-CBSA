@@ -44,7 +44,9 @@ if st.checkbox('Mostrar data'):
     st.write(data)
 
 st.subheader('Cantidad de emergencias por mes')
-dft1 = data['mes'].value_counts()
+dft1= pd.DataFrame(data['Fecha'].dt.to_period('M').value_counts().sort_index())
+dft1.columns = ['Total']
+dft1.index = dft1.index.astype(str, copy=False)
 st.line_chart(dft1)
 
 fig = px.line(dft1)

@@ -6,37 +6,23 @@ import plotly.express as px
 from pathlib import Path
 import os
 import datetime
+import preprocessor
 
 st.title("Sistema de control de emergencias CBSA")
 
 #Config
 DATE_COLUMN = 'Fecha'
 DATA_URL = os.path.join(os.path.dirname(__file__), '..', 'data', 'emergencias-2021.csv')
-
-@st.cache
-def load_data():
-    data = pd.read_csv(DATA_URL, encoding="latin-1", sep=';')
-    data['Fecha'] = pd.to_datetime(data["Fecha"])
-    data['mes'] = data[DATE_COLUMN].dt.month_name()
-    data['periodo']=  pd.to_datetime(data["Fecha"],format='%Y%m')
-    data = data.sort_values('Fecha')
-
-    data.rename(columns = {'LATITUDE': 'lat', 'LONGITUDE':'lon'}, inplace = True)
-    
-    data['lat']=data['lat'].str.replace(",",".", regex = True)
-    data['lon']=data['lon'].str.replace(",", ".", regex = True)
-    data['lat']=data['lat'].astype(float)
-    data['lon']=data['lon'].astype(float)
-    return data
-
 #Cantidad de emergencias
 # Create a text element and let the reader know the data is loading.
+#@st.cache
 data_load_state = st.text('cargando data..')
+
 # Load 10,000 rows of data into the dataframe.
-data = load_data()
+data = preprocessor.load_data(DATA_URL, DATE_COLUMN)
 data_load_state.text('Data cargada!')
 
-
+#add calendar dates in side bar
 start_date = st.sidebar.date_input(
         "Fecha de inicio",
         datetime.date(2021,1,1)
@@ -46,7 +32,14 @@ end_date = st.sidebar.date_input(
         datetime.date(2023,1,1)
         )
 
-df_filtered = data[(data["Fecha"] > pd.to_datetime(start_date)) & (data["Fecha"] < pd.to_datetime(end_date))] 
+time_step = st.sidebar.slider(label = "Periodo del tiempo en un día",
+        min_value = 0,
+        max_value = 24,
+        value = (0,24))
+
+st.sidebar.write(time_step[0])
+
+df_filtered = data[(data["Fecha"] > pd.to_datetime(start_date)) & (data["Fecha"] < pd.to_datetime(end_date)) & (data['int_hour']>= int(time_step[0])) & (data['int_hour']<= int(time_step[1])) ] 
 # Notify the reader that the data was successfully loaded.
 
 
@@ -59,16 +52,20 @@ if st.checkbox('Mostrar 10 últimas emergencias registradas'):
     st.subheader('Raw data')
     st.write(df_filtered.tail(10))
 
-st.subheader('Cantidad de emergencias por mes')
-dft1= pd.DataFrame(df_filtered['Fecha'].dt.to_period('M').value_counts().sort_index())
-dft1.columns = ['Total']
-dft1.index = dft1.index.astype(str, copy=False)
-st.line_chart(dft1)
 
-fig = px.line(dft1)
+#Insert line chart with total of emergencies
+st.subheader('Cantidad de emergencias por mes')
+df2 = preprocessor.general_line_chart(df_filtered)
+st.line_chart(df2)
+
+#Insert line chart with total by emergencies
+df3 = preprocessor.line_chart_by_emergencies(df_filtered)
+st.line_chart(df3)
+
+fig = px.line(df2)
 st.write()
 
-st.text('Mapa de emergencias')
+st.subheader('Mapa de emergencias')
 st.map(df_filtered)
 
 

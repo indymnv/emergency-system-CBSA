@@ -58,6 +58,9 @@ st.subheader('Cantidad de emergencias por mes')
 df2 = preprocessor.general_line_chart(df_filtered)
 st.line_chart(df2)
 
+chart_data = df_filtered[['1cia', '2cia', '3cia', '4cia']].sum() 
+st.bar_chart(chart_data, use_container_width=True)
+
 #Insert line chart with total by emergencies
 df3 = preprocessor.line_chart_by_emergencies(df_filtered)
 st.line_chart(df3)

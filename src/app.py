@@ -16,11 +16,9 @@ DATA_URL = os.path.join(os.path.dirname(__file__), '..', 'data', 'emergencias-20
 #Cantidad de emergencias
 # Create a text element and let the reader know the data is loading.
 #@st.cache
-data_load_state = st.text('cargando data..')
 
 # Load 10,000 rows of data into the dataframe.
 data = preprocessor.load_data(DATA_URL, DATE_COLUMN)
-data_load_state.text('Data cargada!')
 
 #add calendar dates in side bar
 start_date = st.sidebar.date_input(
@@ -37,7 +35,6 @@ time_step = st.sidebar.slider(label = "Periodo del tiempo en un día",
         max_value = 24,
         value = (0,24))
 
-st.sidebar.write(time_step[0])
 
 df_filtered = data[(data["Fecha"] > pd.to_datetime(start_date)) & (data["Fecha"] < pd.to_datetime(end_date)) & (data['int_hour']>= int(time_step[0])) & (data['int_hour']<= int(time_step[1])) ] 
 # Notify the reader that the data was successfully loaded.
@@ -61,9 +58,14 @@ st.line_chart(df2)
 chart_data = df_filtered[['1cia', '2cia', '3cia', '4cia']].sum() 
 st.bar_chart(chart_data, use_container_width=True)
 
+colA, colB = st.columns(2)
 #Insert line chart with total by emergencies
 df3 = preprocessor.line_chart_by_emergencies(df_filtered)
-st.line_chart(df3)
+colA.line_chart(df3)
+
+#stacked bar chart
+df_stacked = round(df3[df3.columns].apply(lambda x: x/x.sum(), axis=1)*100,2)
+colB.bar_chart(df_stacked)
 
 fig = px.line(df2)
 st.write()

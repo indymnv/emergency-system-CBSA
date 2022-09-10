@@ -1,4 +1,4 @@
-from email.utils import collapse_rfc2231_value
+
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -67,33 +67,33 @@ if st.checkbox('Mostrar 10 últimas emergencias registradas'):
 
 
 #Insert line chart with total of emergencies
-st.subheader('Cantidad de emergencias por mes')
+st.write('Cantidad de emergencias por mes')
 df2 = preprocessor.general_line_chart(df_filtered)
 st.line_chart(df2)
 
-st.subheader('Cantidad de Emergencias por Compañía')
+st.write('Cantidad de Emergencias por Compañía')
 chart_data = df_filtered[['1cia', '2cia', '3cia', '4cia']].sum() 
 st.bar_chart(chart_data, use_container_width=True)
 
 
 #Insert line chart with total by emergencies
-st.subheader('Cantidad de emergencias mensual por clasificación')
+st.write('Cantidad de emergencias mensual por clasificación')
 df3 = preprocessor.line_chart_by_emergencies(df_filtered)
 st.line_chart(df3)
 
 #stacked bar chart
-st.subheader('Share de emergencias por clasificación')
+st.write('Share de emergencias por clasificación')
 df_stacked = round(df3[df3.columns].apply(lambda x: x/x.sum(), axis=1)*100,2)
 st.bar_chart(df_stacked)
 
-col1, col2 = st.columns(2)
-col1.write("Mediana tiempo respuesta (min)")
+#col1, col2 = st.columns(2)
+st.write("Mediana tiempo respuesta (min)")
 df_time_respuesta = preprocessor.line_chart_for_time(df_filtered, "Tiempo_respuesta")
-col1.line_chart(df_time_respuesta)
+st.line_chart(df_time_respuesta)
 
-col2.write("Mediana Tiempo de control (min)")
+st.write("Mediana Tiempo de control (min)")
 df_time_control = preprocessor.line_chart_for_time(df_filtered, "Tiempo_en_controlar_emergencia")
-col2.line_chart(df_time_control)
+st.line_chart(df_time_control)
 
 fig = px.line(df2)
 st.write()

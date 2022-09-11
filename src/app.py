@@ -8,6 +8,21 @@ from pathlib import Path
 import os
 import datetime
 import preprocessor
+from PIL import Image
+
+
+#Inserting image
+image = Image.open(os.path.join(os.path.dirname(__file__), '..', 'images', 'Logo CBSA.png'))
+
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write(' ')
+with col2:
+    st.image(image, width=150)
+with col3:
+    st.write(' ')
+
 
 st.title("Registro de Emergencias CBSA")
 
@@ -34,10 +49,10 @@ start_date = st.sidebar.date_input(
         )
 end_date = st.sidebar.date_input(
         "Fecha de término",
-        datetime.date(2022,6,1)
+        datetime.date(2022,8,1)
         )
 
-time_step = st.sidebar.slider(label = "Periodo del tiempo en un día",
+time_step = st.sidebar.slider(label = "Intervalo de hora en un día",
         min_value = 0,
         max_value = 24,
         value = (0,24))

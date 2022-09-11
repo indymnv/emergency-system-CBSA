@@ -97,7 +97,7 @@ df3 = preprocessor.line_chart_by_emergencies(df_filtered)
 st.line_chart(df3)
 
 #stacked bar chart
-st.write('Share de emergencias por clasificación')
+st.write('Share (%) de emergencias por clasificación')
 df_stacked = round(df3[df3.columns].apply(lambda x: x/x.sum(), axis=1)*100,2)
 st.bar_chart(df_stacked)
 

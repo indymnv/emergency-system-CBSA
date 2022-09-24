@@ -49,7 +49,7 @@ start_date = st.sidebar.date_input(
         )
 end_date = st.sidebar.date_input(
         "Fecha de término",
-        datetime.date(2022,8,1)
+        datetime.date(2022,9,1)
         )
 
 time_step = st.sidebar.slider(label = "Intervalo de hora en un día",
@@ -62,12 +62,22 @@ options = st.sidebar.multiselect(
      [10.0, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 10.8, 10.9, 10.12],
      [10.0, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 10.8, 10.9, 10.12])
 
+all_fire_stations = ['1cia', '2cia', '3cia', '4cia']
+fire_stations_selected = st.sidebar.multiselect(
+     'Seleccione las compañías que quiere visualizar',
+     [ '1cia','2cia', '3cia', '4cia'],
+     all_fire_stations
+     )
+
+#all_fire_stations.remove(fire_stations_selected)
+filtered_fire_station = list(set(all_fire_stations) - set(fire_stations_selected))
 
 
 
 df_filtered = data[(data["Fecha"] > pd.to_datetime(start_date)) & (data["Fecha"] < pd.to_datetime(end_date)) 
                         & (data['int_hour']>= int(time_step[0])) & (data['int_hour']<= int(time_step[1])) &
-                        (data["Emergencias_cod_corto"].isin(options)) ] 
+                        (data["Emergencias_cod_corto"].isin(options)) & 
+                        (data[filtered_fire_station] == 0).all(axis=1) & (data[fire_stations_selected] == 1).any(axis=1)] 
 # Notify the reader that the data was successfully loaded.
 
 
@@ -78,7 +88,7 @@ col3.metric("Tiempo control Promedio (min)", value = round(df_filtered["Tiempo_e
 
 if st.checkbox('Mostrar 10 últimas emergencias registradas'):
     st.subheader('Raw data')
-    st.write(df_filtered.tail(10))
+    st.write(df_filtered.tail(30))
 
 
 #Insert line chart with total of emergencies

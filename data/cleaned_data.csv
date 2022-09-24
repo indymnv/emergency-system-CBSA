@@ -1,4 +1,68 @@
 Fecha,Hora_del_llamado,Hora_de_primera_respuesta,Tipo_de_emergencias,Dirección,1cia,2cia,3cia,4cia,Detalle_unidades,Situación,Hora_de_término_de_la_emergencia,Tiempo_respuesta,Tiempo_en_controlar_emergencia,Periodo,Emergencias_cod_corto
+2022-08-01,09:01:00,09:12:00,10.6.2,Eucaliptus N. 715 Llolleo,0,0,1,1,B-4-BX-4,Emanacion de gas en jardin infantil,10:19:00,11.0,67.0,2022-08,10.6
+2022-08-01,12:56:00,13:03:00,10.2.1,San Antonio de las bodegas,0,1,0,0,B-2,Quema de basura,13:15:00,7.0,12.0,2022-08,10.2
+2022-08-01,17:45:00,17:47:00,10.6.2,Inmaculada Concepcion con el Canelo,0,0,1,1,B-3-B-4,Emanacion de acido sulfidrico,19:20:00,2.0,93.0,2022-08,10.6
+2022-08-01,20:47:00,20:56:00,10.7,Calle Litoral N.720 Bellavista,0,1,0,0,B-2,Problemas en tendido electrico,21:03:00,9.0,7.0,2022-08,10.7
+2022-08-02,08:52:00,09:01:00,10.1,Los alerces con Ginebra,0,0,1,0,B-3,Vehiculo consumido por el fuego,10:23:00,9.0,82.0,2022-08,10.1
+2022-08-02,12:53:00,12:59:00,10.6.2,Inmaculada Concepcion N. 214,1,0,0,1,B-1-B-4,Emanacion de acido sulfidrico,13:47:00,6.0,48.0,2022-08,10.6
+2022-08-02,22:46:00,23:00:00,10.6.1,"Hilda Varas N. 989, Alto mirador",0,0,1,0,B-4,Desperfecto en valvula de gas,23:26:00,14.0,26.0,2022-08,10.6
+2022-08-03,15:38:00,15:59:00,10.4.3,"Ruta 78, kilometro 89",0,0,1,0,B-4,Colision vehiculo mayor/menor,16:43:00,21.0,44.0,2022-08,10.4
+2022-08-05,05:15:00,05:20:00,10.0,"Antonio Nuñez de Fonseca, altura de panul",0,1,0,0,B-2,Incendio en casa en decaimiento,07:08:00,5.0,108.0,2022-08,10.0
+2022-08-05,08:49:00,08:51:00,10.0,"Mauricio Mena, al lado del N 285",1,1,1,0,B-1-B-2-BT-3,Incedio en segundo piso de casa habitacion,09:11:00,2.0,20.0,2022-08,10.0
+2022-08-05,19:24:00,19:27:00,10.2.1,Las ñipas (ex fundacion mi casa,0,0,1,0,B-3,Quema de basura,19:42:00,3.0,15.0,2022-08,10.2
+2022-08-05,21:00:00,21:05:00,10.7,Los geranios con Huingan,0,0,1,0,B-3,Fuego en cable de tendido electrico,21:23:00,5.0,18.0,2022-08,10.7
+2022-08-05,21:23:00,21:27:00,10.7,Juan Vargas N. 21 poblacion videla,0,0,1,0,B-3,Fuego en cables de telefonia,21:46:00,4.0,19.0,2022-08,10.7
+2022-08-06,02:43:00,02:53:00,10.2.1,"Bellavista, brasil",0,1,0,0,B-2,Incendio  en basurero,02:59:00,10.0,6.0,2022-08,10.2
+2022-08-06,03:58:00,04:02:00,10.0,"Gregorio Mira, atrás de tiendas Javer",0,1,0,0,B-2,Incendio estructural en edificio abandonado,04:53:00,4.0,51.0,2022-08,10.0
+2022-08-06,05:21:00,05:24:00,10.4.1,Avenida divina providencia N. 391,1,0,1,0,RX-1-B4,Choque de vehiculo menor con muralla,05:57:00,3.0,33.0,2022-08,10.4
+2022-08-07,15:33:00,15:47:00,10.8,"Calle Manuel Bulnes, Bellavista",0,1,0,0,B-2,Incendio en casa habitacion en construccion,16:08:00,14.0,21.0,2022-08,10.8
+2022-08-07,17:43:00,17:49:00,10.1,Nueva bruselas,1,1,0,0,B-1-B-2,Vehiculo consumido por el fuego,18:27:00,6.0,38.0,2022-08,10.1
+2022-08-08,08:35:00,08:39:00,10.4.1,Ginebra con Cardenal Caro,1,0,1,0,RX-1-B4,Colision de dos vehiculos particulares,09:16:00,4.0,37.0,2022-08,10.4
+2022-08-08,08:50:00,08:59:00,1º alarma de incendio,Tomas Cerro la virgen,1,1,1,0,B-1-B-2-B-3,Incendio estructural casa de material ligero,09:23:00,9.0,24.0,2022-08,10.0
+2022-08-08,11:27:00,11:35:00,10.6.2,El Sauce N. 960 jardin infantil Velerito,1,0,1,0,B-1-B-4,"Olor desconocido en el ambiente, emanacion acido sulfidrico",12:01:00,8.0,26.0,2022-08,10.6
+2022-08-08,21:37:00,21:38:00,10.4.1,Manuel Bulnes con pajaritos,1,1,0,0,RX-1-B-2,Colision de dos vehiculos particulares,21:55:00,1.0,17.0,2022-08,10.4
+2011-08-10,03:48:00,03:57:00,10.0,"Isla porvenir con Puerto Montt, Cristo Rey",1,0,1,0,B-1-B-2-B-3,Incendio estructural en casa habitacion,05:01:00,9.0,64.0,2011-08,10.0
+2022-08-10,09:30:00,09:56:00,10.6.2,"Los lingues N. 1122, torre 8",0,0,1,0,B-3,"Fuga de gas desde 2 y 3 piso, se solicita abastible al lugar",10:23:00,26.0,27.0,2022-08,10.6
+2022-08-10,17:19:00,17:25:00,10.0,Esquina Orella con 30 de marzo,1,1,0,0,B-1-B-2,Incendio de casa habitacion,18:02:00,6.0,37.0,2022-08,10.0
+2022-08-10,20:27:00,20:28:00,10.8,Centenario con Lauro Barros,0,1,0,0,B-2,Humo desde local comercial,20:37:00,1.0,9.0,2022-08,10.8
+2022-08-11,19:28:00,19:45:00,10.2.1,"Ruta 78, kilometro 85",0,0,0,1,BX-4,Quema de pastizal,20:29:00,17.0,44.0,2022-08,10.2
+2022-08-11,20:43:00,20:51:00,10.6.2,"soledad N. 142, condominio puertas del sol",0,1,1,0,B-2-B-3,Fuga de GLP desde cilindro de 15 kilos,21:53:00,8.0,62.0,2022-08,10.6
+2022-08-12,17:48:00,17:55:00,10.8,"Avenida Aromos, a dos cuadras de Avenida Chile",0,0,1,0,B-3,Quema de basura en patio de casa particular,18:12:00,7.0,17.0,2022-08,10.8
+2022-08-12,18:18:00,18:29:00,10.2.1,Ginebra con Flor Mora,1,0,0,0,B-1,"Quema de basura, sin peligro de propagacion",18:47:00,11.0,18.0,2022-08,10.2
+2022-08-12,22:53:00,23:05:00,10.5,cumbres de miramar 3,0,0,1,0,B-3,Rotura de termometro,23:31:00,12.0,26.0,2022-08,10.5
+2022-08-13,16:38:00,16:45:00,10.4.1,Avenida Barros Luco con Curico,1,1,0,0,RX-1-B-2,Colision entre furgon y vehiculo particular,16:56:00,7.0,11.0,2022-08,10.4
+2022-08-15,19:04:00,19:10:00,10.7,Bello horizonte N. 970,0,1,0,0,B-2,Corte de cable de mediana tension,19:31:00,6.0,21.0,2022-08,10.7
+2022-08-16,04:21:00,04:30:00,10.9,Ginebra N. 576,0,1,0,0,Q-2,Perro atrapado en reja,04:40:00,9.0,10.0,2022-08,10.9
+2022-08-16,13:18:00,13:23:00,10.3.1,Lonja pesquera,0,1,0,0,Q-2,Persona cae desde bote,13:36:00,5.0,13.0,2022-08,10.3
+2022-08-16,17:05:00,17:11:00,10.0,"Calle Gabriela Mistral, Llolleo",0,1,1,0,B-2-B-3,Incendio compartimental en casa habitacion,17:40:00,6.0,29.0,2022-08,10.0
+2022-08-16,21:50:00,22:11:00,10.4.1,"Ruta 78, kilometro 90",1,0,0,1,RX-1-BX-4,Colision de dos vehiculos particulares,22:26:00,21.0,15.0,2022-08,10.4
+2022-08-17,14:07:00,14:11:00,10.4.1,Avenida Chile s/n,1,0,1,0,RX-1-B-3,Colision de dos vehiculos particulares,14:17:00,4.0,6.0,2022-08,10.4
+2022-08-18,01:31:00,01:51:00,10.6.1,"Calle Juan Concha, Aguas saladas",0,0,1,0,B-3,"Problema en valvula de cilindro de gas, controlado",02:06:00,20.0,15.0,2022-08,10.6
+2022-08-18,02:44:00,02:49:00,10.4.1,Luis Reuss con Independencia,1,1,0,0,RX-1-B-2,Volcamiento de vehiculo particular contra arbol,03:03:00,5.0,14.0,2022-08,10.4
+2022-08-18,09:20:00,09:24:00,10.4.3,Rotonda de Avenida Curico,1,0,1,0,R-1-RX-1-B-3,Volcamiento de vehiculo mayor,09:57:00,4.0,33.0,2022-08,10.4
+2022-08-18,15:43:00,15:46:00,10.0,Manuel Bulnes N.972,0,1,1,0,B-2-B-3,Incendio de casa de material ligero,16:22:00,3.0,36.0,2022-08,10.0
+2022-08-18,23:36:00,23:38:00,10.0,"Camino al autodromo, San Juan",0,0,1,1,B-3-BT-3-B-4-BX-4,Fuego multicompartimental en fase de libre combustion,02:01:00,2.0,143.0,2022-08,10.0
+2022-08-19,10:16:00,10:20:00,10.6.2,Inmaculada Concepcion N. 89,1,0,1,0,B-1-B-3,Concentracion de monoxido de carbono,10:35:00,4.0,15.0,2022-08,10.6
+2022-08-19,10:38:00,10:42:00,10.4.3,Acceso al puerto,0,1,1,0,Q-2-B-3,Choque de vehiculo mayor,11:02:00,4.0,20.0,2022-08,10.4
+2022-08-20,10:51:00,10:55:00,10.4.1,Puente de Llolleo,1,0,1,0,R-1-B-3,Colision de dos vehiculos particulares,11:16:00,4.0,21.0,2022-08,10.4
+2022-08-20,16:15:00,16:21:00,10.4.1,"Orella, altura cancha de futbol",1,1,0,0,R-1-B-2,"Colision de alta energia, 2 vehiculos",16:32:00,6.0,11.0,2022-08,10.4
+2022-08-22,16:20:00,16:34:00,10.4.2,Avenida Chile con Jose Miguel Carrera,1,0,1,0,R-1-B-3,Colision de vehiculo particular con taxi colectivo,17:05:00,14.0,31.0,2022-08,10.4
+2022-08-23,13:01:00,13:04:00,10.4.1,Avenida Angamos con 7 sur,1,0,1,0,R-1-B-3,Colision de dos vehiculos particulares,13:29:00,3.0,25.0,2022-08,10.4
+2022-08-23,04:10:00,04:21:00,10.8,"Pelancura, S/N",0,1,0,0,B-2,Principio de incendio de calefont,04:45:00,11.0,24.0,2022-08,10.8
+2022-08-24,08:13:00,08:50:00,10.12x10.4.2,"Autopista del sol, kilometro 75",1,0,0,0,R-1,"Apoyo a CB de Melipilla, colision varios vehiculos mayores/menores",09:47:00,37.0,57.0,2022-08,10.4
+2022-08-24,17:38:00,17:59:00,10.4.3,"Autopista del sol, la marqueza",1,1,1,0,R-1-Q-2-B-3,Volcamiento de camion y colision con microbus,18:17:00,21.0,18.0,2022-08,10.4
+2022-08-25,15:12:00,15:24:00,10.12x10.2,"Apoyo al CB de Santo Domingo, humedal",0,0,0,1,B-4,Derrame de material peligroso desde contenedor,18:23:00,12.0,179.0,2022-08,10.2
+2022-08-26,11:02:00,11:06:00,10.4.1,Baquedano con Nueva Providencia,1,0,1,0,R-1-B-3,Colision de dos vehiculos menores,11:23:00,4.0,17.0,2022-08,10.4
+2022-08-26,14:33:00,14:37:00,10.1,Manuel Bulnes con camion antiguo a Cartagena,0,1,0,0,B-2,Incendio de vehiculo,14:51:00,4.0,14.0,2022-08,10.1
+2022-08-27,15:53:00,16:17:00,10.4.3,"Avenida San Juan N. 1610, portal Condominio Santo Domingo",1,0,1,1,R-1-B-3-B-4,Desbarrancamiento de vehiculo,16:27:00,24.0,10.0,2022-08,10.4
+2022-08-27,19:46:00,19:53:00,10.7,Maestranza con Williams Rebolledo,1,1,0,0,B-1-B-2,Fuego en tendido electrico,20:20:00,7.0,27.0,2022-08,10.7
+2022-08-28,15:07:00,15:13:00,10.8,"Santa Lucia s/n, Llolleo",0,0,1,0,B-3,Quema en patio de casa habitacion,15:28:00,6.0,15.0,2022-08,10.8
+2022-08-28,18:38:00,18:51:00,10.12x10.2.2,"Apoyo al CB de Santo Domingo, vertedero playa Marbella",0,0,1,0,BT-3,Incendio en vertedero,19:24:00,13.0,33.0,2022-08,10.2
+2022-08-29,05:56:00,06:04:00,10.4.3,"acceso al puerto, altura de empresa D&C",1,0,1,0,R-1-B-3,Colision de dos vehiculos menor/mayor,06:29:00,8.0,25.0,2022-08,10.4
+2022-08-29,17:45:00,17:50:00,10.4.3,Acceso al puerto,1,0,1,0,R-1-B-3,Volcamiento de camion con derame,19:30:00,5.0,100.0,2022-08,10.4
+2022-08-30,14:04:00,14:07:00,10.6.2,Pasaje Covadonga con Ignacio Carrera Pinto,1,0,1,0,B-1-B-3,Dos personas atrapadas en ascensor,14:49:00,3.0,42.0,2022-08,10.6
+2022-08-31,12:04:00,12:09:00,10.0,Garcia Huidobro con Jose Rodriguez,1,1,0,0,B-1-B-2,"Incendio estructural, controlado por propietarios",12:30:00,5.0,21.0,2022-08,10.0
+2022-08-31,12:44:00,12:46:00,1º alarma de incendio,Avenida Divina providencia con Santa Lucia,1,1,0,0,B-1-B-2-Q-2-B-3,Incendio compartimental en casa habitacion,13:39:00,2.0,53.0,2022-08,10.0
 2022-03-01,09:23:00,09:27:00,10.4.3,Gregorio Mira con Blanco Encalada,1,1,1,0,B-1/B-2/B-3,Colision de camion contra poste,09:40:00,4.0,13.0,2022-03,10.4
 2022-03-01,11:00:00,11:40:00,10.12X10.0,Apoyo a CB de Melipilla,0,0,1,0,BT-3,Apoyo incendio estructural,16:58:00,40.0,318.0,2022-03,10.0
 2022-03-01,15:15:00,15:22:00,10.4.2,Avenida Chile con Inmaculada Concepcion,1,1,1,0,B-1/B-2/B-3,Colision de vehiculos menores,16:07:00,7.0,45.0,2022-03,10.4

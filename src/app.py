@@ -49,7 +49,7 @@ start_date = st.sidebar.date_input(
         )
 end_date = st.sidebar.date_input(
         "Fecha de término",
-        datetime.date(2022,9,1)
+        datetime.date(2022,10,1)
         )
 
 time_step = st.sidebar.slider(label = "Intervalo de hora en un día",
@@ -86,7 +86,7 @@ col1.metric("Total Emergencias", value = df_filtered.shape[0])
 col2.metric("Tiempo Respuesta Promedio (min)", value = round(df_filtered["Tiempo_respuesta"].median(),2))
 col3.metric("Tiempo control Promedio (min)", value = round(df_filtered["Tiempo_en_controlar_emergencia"].mean(),2))
 
-if st.checkbox('Mostrar 10 últimas emergencias registradas'):
+if st.checkbox('Mostrar 30 últimas emergencias registradas'):
     st.subheader('Raw data')
     st.write(df_filtered.tail(30))
 

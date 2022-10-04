@@ -1024,6 +1024,59 @@ Fecha,Hora_del_llamado,Hora_de_primera_respuesta,Tipo_de_emergencias,Dirección,
 2022-05-30,11:57:00,12:36:00,10.12x10.6.1,"Isidoro Dubornais con pino mar N. 31 ,apoyo a CB de El Quisco",0,0,1,0,HX-3,Acido sulfurico en fosa,15:52:00,39.0,196.0,2022-05,10.6
 2022-05-30,18:48:00,19:01:00,10.4.1,"Acceso al puerto, cruce Cartagena",1,1,0,0,RX-1/B-2,Colision de dos vehiculos menores,19:40:00,13.0,39.0,2022-05,10.4
 2022-05-31,07:31:00,07:37:00,2º alarma de incendio,"21 de mayo, Homecenter",1,1,1,0,B-1/B-2/B-3/Q-2,Incendio en patio de local comercial,07:52:00,6.0,15.0,2022-05,10.0
+2022-09-02,08:10:00,08:15:00,10.4.5,Rotonda de Avenida Curico,1,0,1,0,R-1-B-3,Colision de vehiculos menores,08:38:00,5.0,23.0,2022-09,10.4
+2022-09-02,17:11:00,17:25:00,10.6.2,Avenida el sauce con Rafael de la presa,0,0,1,1,B-3-B-4,Emanacion de gas desde cocina y acido sulfidrico desde carama desague,18:19:00,14.0,54.0,2022-09,10.6
+2022-09-02,07:18:00,07:30:00,10.2.1,Parque DYR,0,0,1,0,B-3,"Quema de un neumatico, controlado",07:46:00,12.0,16.0,2022-09,10.2
+2022-09-03,18:44:00,18:57:00,10.4.1,"Autopista del sol, kilometro 95",1,1,0,0,R-1-B-2,Colision de vehiculo menor,18:57:00,13.0,0.0,2022-09,10.4
+2022-09-04,14:20:00,14:24:00,10.0,"Calle Gabriela Mistral, Llolleo",1,0,1,1,B-1-B-3-B-4,Fuego compartimental de casa habitacion,14:56:00,4.0,32.0,2022-09,10.0
+2022-09-05,19:55:00,20:13:00,10.2.1,Camino antiguo a Cartagena,0,1,0,0,B-2,"Quema al interior de patio de vivienda, controlado por moradores",20:13:00,18.0,0.0,2022-09,10.2
+2022-09-05,20:14:00,20:20:00,10.0,Pasaje Llaima N. 384,1,0,1,0,B-1-B-3,"Fuego en cocina, controlado",20:43:00,6.0,23.0,2022-09,10.0
+2022-09-05,23:53:00,00:02:00,10.0,Maule con Independencia,1,1,0,0,B-1-B-2,"Fuego compartimental de casa habitacion, segundo piso",00:42:00,9.0,40.0,2022-09,10.0
+2022-09-06,13:30:00,13:49:00,10.6.1,"Raquel Almagro, block 1326, Bellavista Holanda",0,1,1,0,B-2-B-3,Fuga de gas desde regulador de cilindro de gas,14:05:00,19.0,16.0,2022-09,10.6
+2022-09-06,14:10:00,14:21:00,1º alarma de incendio,Tomas de Placilla,1,1,1,0,B-1-B-2-B-3,"Fuego compartimental, controlado por vecinos",14:31:00,11.0,10.0,2022-09,10.0
+2022-09-06,15:04:00,15:15:00,10.3.1,"Pasaje general Condell N. 229, cerro arena",0,1,0,0,B-2,Caida de adulto mayor desde altura,15:33:00,11.0,18.0,2022-09,10.3
+2022-09-06,21:06:00,21:18:00,10.1,"Ruta 78, altura de Leyda",0,1,0,0,B-2,Incedio de vehiculo en su totalidad,22:52:00,12.0,94.0,2022-09,10.1
+2022-09-07,17:40:00,17:44:00,10.0,"Avenida Aromos, Llolleo",0,0,1,1,B-3-B-4,Incendio de casa habitacion,18:07:00,4.0,23.0,2022-09,10.0
+2022-09-07,18:06:00,18:13:00,10.7,Pasaje Pedro Santander S/N,0,0,1,1,B-3-B-4,Cae cable electrico al techo segundo piso casa habitacion,18:32:00,7.0,19.0,2022-09,10.7
+2022-09-07,18:10:00,18:21:00,10.7,"Av. Domingo Fernandez Concha, altura puente Huallipen",1,0,0,0,B-1,Cable de tendido electrico en el suelo,18:25:00,11.0,4.0,2022-09,10.7
+2022-09-07,21:57:00,22:05:00,10.7,"Entre Portales y Fernandez Concha, cerca plaza estrella",0,0,1,0,B-3,Problema electrico desde poste a casa habitacion,22:38:00,8.0,33.0,2022-09,10.7
+2022-09-08,10:50:00,11:06:00,10.6.1,Las araucarias N. 194,0,0,1,0,B-3,Olor extraño en el ambiente,11:29:00,16.0,23.0,2022-09,10.6
+2022-09-08,00:12:00,00:26:00,10.6.2,"Cumbres de miramar, torre 11",0,1,1,0,UR-2-B-3,GLP en departamento de tercer piso,01:21:00,14.0,55.0,2022-09,10.6
+2022-09-10,17:24:00,17:28:00,10.4.1,Puente de Llolleo,1,0,1,0,RX-1-B-3,Colision de vehiculos menores,17:29:00,4.0,1.0,2022-09,10.4
+2022-09-12,12:10:00,12:12:00,10.4.1,Casanova con Avenida divina providencia,1,0,1,0,RX-1-B-3,Colision de vehiculos menores,12:25:00,2.0,13.0,2022-09,10.4
+2022-09-12,20:10:00,20:19:00,1º alarma de incendio,"Calle España, Barrancas",1,1,1,0,B-1-UR-2-B-3,Incendio estructural,21:05:00,9.0,46.0,2022-09,10.0
+2022-09-13,01:21:00,01:31:00,10.5,"Cañoripe N. 2713 con 10 sur, las dunas",0,0,1,0,B-3,Rotura de termometro,01:45:00,10.0,14.0,2022-09,10.5
+2022-09-13,18:39:00,18:51:00,10.0,"Calle Ignacio Cerda con los jazmines, Bellavista",1,1,0,0,B-1-UR-2,Incendio compartimental en dependencias de cocina,18:54:00,12.0,3.0,2022-09,10.0
+2022-09-13,20:26:00,20:33:00,10.1,"ruta G-82, cruce de Cartagena",0,1,0,0,UR-2,Fuego en vehiculo menor,20:57:00,7.0,24.0,2022-09,10.1
+2022-09-13,20:41:00,21:11:00,10.7,"Ruta g-904, kilometro 1.2",0,0,0,1,B-4,Fuego en cable de alta tension,21:27:00,30.0,16.0,2022-09,10.7
+2022-09-13,22:49:00,22:57:00,10.8,Lautaro N.226 con Aconcagua,1,0,0,0,B-1,Inflamacion de manguera de gas,23:08:00,8.0,11.0,2022-09,10.8
+2022-09-13,23:01:00,23:05:00,10.2,Avenida Centenario N. 323,0,0,0,0,,Quema de pastizal y basura,23:15:00,4.0,10.0,2022-09,10.2
+2022-09-14,00:27:00,00:37:00,10.3.1,Las amapolas S/N,0,1,0,0,R-2,Caida de adulto desde balcon,01:00:00,10.0,23.0,2022-09,10.3
+2022-09-14,11:34:00,11:41:00,10.4.3,Avenida Barros Luco con Alan Macowan,1,0,1,0,RX-1-B-3,Colision de monociclo con camion,11:52:00,7.0,11.0,2022-09,10.4
+2022-09-14,15:36:00,15:45:00,10.4.3,"Ruta G-85, puente Arevalo",1,0,1,0,RX-1-B-3,Colision de dos vehiculos menores con camion,15:56:00,9.0,11.0,2022-09,10.4
+2022-09-15,21:31:00,21:49:00,10.4.3,"Autopista del sol, camino a San Antonio, kilometro 95",1,0,1,1,RX-1-B-3-B-4,Colision entre camion y bus,22:10:00,18.0,21.0,2022-09,10.4
+2022-09-16,00:32:00,00:37:00,10.4.1,Avenida Chile con Jose Miguel Carrera,1,0,1,0,RX-1-B-3,Colision de vehiculo menor con motocicleta,00:53:00,5.0,16.0,2022-09,10.4
+2022-09-19,01:15:00,01:23:00,10.2.1,Calle Enriqueta con Arturo Pratt,1,0,0,0,B-1,Quema de pastizal y basura,02:20:00,8.0,57.0,2022-09,10.2
+2022-09-19,04:21:00,04:36:00,10.0,Poblacion Santa Rosa del Mar,0,0,1,1,B-3-B-4,Incendio de libre combustion en mejora,05:26:00,15.0,50.0,2022-09,10.0
+2022-09-19,21:18:00,21:30:00,10.7,Napoles S/N,1,0,0,0,B-1,Principio de incendio en medidor electrico,21:40:00,12.0,10.0,2022-09,10.7
+2022-09-20,14:34:00,14:43:00,10.8,El Sauce N. 1684,0,0,1,0,B-3,Inflamacion en regulador de cilindro de gas,15:17:00,9.0,34.0,2022-09,10.8
+2022-09-20,19:57:00,21:26:00,10.2.1,Ruta G-814,0,0,1,0,BX-4,Quema autorizada,23:20:00,89.0,114.0,2022-09,10.2
+2022-09-21,20:16:00,20:19:00,10.4.1,Antonio Nuñez de Fonseca S/N,1,1,0,0,RX-1/B-2,"Colision por alcance, 4 vehiculos menores",20:36:00,3.0,17.0,2022-09,10.4
+2022-09-22,10:36:00,10:42:00,10.6.1,Avenida Providencia N. 318,0,0,1,0,B-3,Emanacion de gas desde cilindro de 45 kilos,10:57:00,6.0,15.0,2022-09,10.6
+2022-09-22,18:34:00,18:39:00,10.4.1,Jose Miguel Carrera con Larrain Gandarillas,1,0,1,0,RX-1-B-3,Colision de vehiculo particular con taxi colectivo,19:05:00,5.0,26.0,2022-09,10.4
+2022-09-23,14:22:00,14:26:00,10.3.1,Asturias con Jose Oviedo S/N,0,1,0,0,R-2,"Adulto con dolor en pecho, hipertension, se llama a SAMU",15:05:00,4.0,39.0,2022-09,10.3
+2022-09-23,20:21:00,20:28:00,10.8,"Calle esmeralda con Fresia, Bellavista",0,1,0,0,B-2,"Fogata, creada por moradores",20:34:00,7.0,6.0,2022-09,10.8
+2022-09-24,18:10:00,18:23:00,10.8,Jose Mallol N. 392,1,0,0,0,B-1,Inflamacion en tubo de chimenea,18:54:00,13.0,31.0,2022-09,10.8
+2022-09-25,14:25:00,14:32:00,10.8,Tarapaca N.642 con Independencia,0,1,0,0,B-2,"Inflamacion de cocina, controlado",14:45:00,7.0,13.0,2022-09,10.8
+2022-09-25,21:24:00,21:27:00,10.4.1,Avenida Divina providencia S/N,1,0,1,0,RX-1-B-3,Choque de vehiculo menor contra barrera,21:44:00,3.0,17.0,2022-09,10.4
+2022-09-25,22:30:00,22:39:00,10.4.1,"Ruta G-904, kilometro 10.5",0,1,1,1,Q-2-B-3-B-4,Choque de vehiculo menor contra vivienda,22:59:00,9.0,20.0,2022-09,10.4
+2022-09-26,04:14:00,04:26:00,1º alarma de incendio,Camino antiguo a Cartagena,1,1,1,0,B-1-B-2-B-3,"Incendio en casa habitacion, consumida en su totalidad",05:02:00,12.0,36.0,2022-09,10.0
+2022-09-27,10:32:00,10:40:00,10.6.2,"Juan Antonio Rios con Ignacio Carrera Pinto, block 17",1,0,1,0,B-1-B-3,Fuga de gas en medidor de edificio,11:06:00,8.0,26.0,2022-09,10.6
+2022-09-27,21:37:00,21:40:00,10.2.1,"Gregorio Mira, costado Clinica San Antonio",0,1,0,0,B-2,"Quema de basura, pino",22:13:00,3.0,33.0,2022-09,10.2
+2022-09-28,12:04:00,12:08:00,10.4.1,Avenida Chile con Arrayan,1,0,1,0,RX-1-R-1-B-3,Colision de dos vehiculos,12:25:00,4.0,17.0,2022-09,10.4
+2022-09-28,16:06:00,16:12:00,10.2.1,Anibal Pinto S/N,1,0,0,0,B-1,Quema de neumaticos,16:20:00,6.0,8.0,2022-09,10.2
+2022-09-28,18:57:00,19:02:00,10.0,"Jose Angel Ortuzar, costado cancha de futbol condores",1,1,0,0,B-1-B-2,"Inflamacion de calefont, controlado por propietarios",19:19:00,5.0,17.0,2022-09,10.0
+2022-09-29,15:53:00,16:00:00,10.0,San Antonio de las bodegas S/N,0,1,0,0,B-2,Quema de sillon y basura en patio de recinto particular,16:31:00,7.0,31.0,2022-09,10.0
 2021-12-02,08:40:00,08:51:00,10.6.1,Las riendas N. 1251 villa el trigal,0,0,1,0,H-3,"Fuga de GLP desde cilindro de 15 kilos, valvula mal instalada",09:09:00,11.0,18.0,2021-12,10.6
 2021-12-02,10:40:00,10:49:00,10.2.1,Ginebra con Flor Mora Maldonado,0,0,1,0,B-3,"Quema de pastizal y basura, 100 metros cuadrados aprox",11:11:00,9.0,22.0,2021-12,10.2
 2021-12-03,09:45:00,09:57:00,10.2.1,Los lingues con las palmas,0,0,1,0,B-3,"Incendio de pastizal, 10 metros cuadrados aprox.",10:18:00,12.0,21.0,2021-12,10.2

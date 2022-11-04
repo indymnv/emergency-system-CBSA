@@ -9,6 +9,11 @@ import os
 import datetime
 import preprocessor
 from PIL import Image
+from scipy import stats
+
+from streamlit_folium import folium_static
+import folium
+
 
 
 #Inserting image
@@ -111,17 +116,33 @@ st.write('Share (%) de emergencias por clasificación')
 df_stacked = round(df3[df3.columns].apply(lambda x: x/x.sum(), axis=1)*100,2)
 st.bar_chart(df_stacked)
 
-#col1, col2 = st.columns(2)
-st.write("Mediana tiempo respuesta (min)")
+col1, col2 = st.columns(2)
+col1.write("Mediana tiempo respuesta (min)")
 df_time_respuesta = preprocessor.line_chart_for_time(df_filtered, "Tiempo_respuesta")
-st.line_chart(df_time_respuesta)
+col1.line_chart(df_time_respuesta)
 
-st.write("Mediana Tiempo de control (min)")
+col2.write("Mediana Tiempo de control (min)")
 df_time_control = preprocessor.line_chart_for_time(df_filtered, "Tiempo_en_controlar_emergencia")
-st.line_chart(df_time_control)
+col2.line_chart(df_time_control)
 
-fig = px.line(df2)
-st.write()
+#"# streamlit-folium"
+
+
+
+    # center on Liberty Bell
+#m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
+
+# add marker for Liberty Bell
+#tooltip = "Liberty Bell"
+#folium.Marker(
+#    [39.949610, -75.150282], popup="Liberty Bell", tooltip=tooltip
+#).add_to(m)
+
+# call to render Folium map in Streamlit
+#folium_static(m)
+
+#fig = px.line(df2)
+#st.write()
 
 #st.subheader('Mapa de emergencias')
 #st.map(df_filtered)

@@ -11,8 +11,8 @@ import preprocessor
 from PIL import Image
 #from scipy import stats
 
-from streamlit_folium import folium_static
-import folium
+#from streamlit_folium import folium_static
+#import folium
 
 
 

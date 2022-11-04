@@ -49,7 +49,7 @@ start_date = st.sidebar.date_input(
         )
 end_date = st.sidebar.date_input(
         "Fecha de término",
-        datetime.date(2022,10,1)
+        datetime.date(2022,11,1)
         )
 
 time_step = st.sidebar.slider(label = "Intervalo de hora en un día",

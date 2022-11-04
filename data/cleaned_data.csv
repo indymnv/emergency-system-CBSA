@@ -743,6 +743,62 @@ Fecha,Hora_del_llamado,Hora_de_primera_respuesta,Tipo_de_emergencias,Dirección,
 2020-10-30,07:52:00,07:54:00,10.0,"Covadonda, block 1, depto 11",1,0,0,0,,Incendio compartimental en fase inicial,09:03:00,2.0,69.0,2020-10,10.0
 2020-10-31,10:01:00,10:19:00,10.4.1,"Autopista del sol, kilometro 85",1,1,0,0,,Volcamiento de vehiculo menor,11:12:00,18.0,53.0,2020-10,10.4
 2020-10-31,15:46:00,,10.12 X10.0,Apoyo a Cartagena,0,0,0,0,,apoyo suspendido,,,,2020-10,10.0
+2022-10-01,05:49:00,05:59:00,10.1,"Los conquistadores, Bellavista",0,1,0,0,B-2,Incendio de vehiculo menor,06:46:00,10.0,47.0,2022-10,10.1
+2022-10-01,21:37:00,22:06:00,10.4.1,Interior de las palmas,1,0,0,1,RX-1-B-4,Volcamiento de vehiculo menor,22:43:00,29.0,37.0,2022-10,10.4
+2022-10-02,16:13:00,16:46:00,10.12x10.0,Parcelacion Santa Blanca,0,0,1,1,BT-3-B-4,Apoyo al CB de Santo Domingo,19:00:00,33.0,134.0,2022-10,10.0
+2022-10-02,19:14:00,19:25:00,10.8,"Cruce Coresa, San Juan",0,0,0,1,BX-4,Calentamiento en ducto de salamandra,19:50:00,11.0,25.0,2022-10,10.8
+2022-10-03,10:21:00,10:30:00,10.7,Las perdices N. 1856,0,0,1,0,B-3,Incendio en poste de alumbrado publico,10:50:00,9.0,20.0,2022-10,10.7
+2022-10-04,08:00:00,08:05:00,10.4.1,Avenida providencia S/N,1,0,1,0,RX-1-B-3,Colision de dos vehiculos menores,08:37:00,5.0,32.0,2022-10,10.4
+2022-10-04,13:10:00,13:13:00,10.3.1,Avenida Barros Luco con Angamos,0,1,0,0,UR-2,Persona con convulsiones,13:33:00,3.0,20.0,2022-10,10.3
+2022-10-04,20:32:00,20:36:00,10.3.1,Calle los claveles N. 7 Tejas verdes,0,0,1,0,B-3,Caida de menor desde tercer piso,20:49:00,4.0,13.0,2022-10,10.3
+2022-10-05,11:18:00,11:28:00,10.6.2,"Argandoña Perez, cumbres de miramar",1,1,0,0,B-1-B-2,Fuga desde calefont,12:12:00,10.0,44.0,2022-10,10.6
+2022-10-05,13:18:00,13:23:00,10.6.1,Hermanos Carrera N. 354,0,0,1,0,B-3,Falla en regulador de gas,14:26:00,5.0,63.0,2022-10,10.6
+2022-10-05,13:48:00,13:56:00,10.7,Alberto Barros S/N,0,1,0,0,B-2,Desperfecto en red electrica,14:06:00,8.0,10.0,2022-10,10.7
+2022-10-05,22:25:00,22:28:00,1º alarma de incendio,"Las acacias, cerro arena",1,1,1,0,B-1-B-2-B-3,"Incendio de casa habitacion, libre combustion",23:22:00,3.0,54.0,2022-10,10.0
+2022-10-07,12:50:00,12:55:00,10.4.1,"Raquel Almarza, aguas saladas",1,1,0,0,RX-1-B-2,Choque de vehiculo particular con poste de alumbrado publico,13:12:00,5.0,17.0,2022-10,10.4
+2022-10-07,14:29:00,14:32:00,10.6.2,Centenario N. 176,0,1,1,0,B-2-B-3,"Posible fuga de glp, se monitorea, recomendaciones",15:12:00,3.0,40.0,2022-10,10.6
+2022-10-08,12:49:00,12:49:00,10.4.2,"Avenida Barros Luco, frente al estadio",1,0,0,0,RX-1,Colision de dos vehiculos menores,13:07:00,0.0,18.0,2022-10,10.4
+2022-10-08,19:33:00,19:44:00,10.4.2,"Manuel Bulnes, altura del 420",1,0,0,0,RX-1,Colision de taxi colectivo con vehiculo particular,19:55:00,11.0,11.0,2022-10,10.4
+2022-10-09,04:44:00,04:48:00,10.0,Avenida el molo con patria,1,0,0,0,B-1,"Incendio de mediagua, basura",05:14:00,4.0,26.0,2022-10,10.0
+2022-10-09,15:29:00,15:38:00,10.6.2,Olegario Henriquez N. 1235,1,0,1,0,B-1-B-3,Fuga en medidor de cilindro de gas,16:08:00,9.0,30.0,2022-10,10.6
+2022-10-09,23:56:00,23:58:00,10.8,Manuel Bulnes con Serrano,0,1,0,0,B-2,Parrilla humeando,00:18:00,2.0,20.0,2022-10,10.8
+2022-10-11,10:52:00,11:14:00,10.5,"Las riendas N. 377, villa el trigal",0,0,1,0,B-3,Rotura de termometro,11:20:00,22.0,6.0,2022-10,10.5
+2022-10-11,18:21:00,18:29:00,10.2.1,Camino antiguo a Cartagena,0,1,0,0,B-2,Quema de basura y pasto,18:52:00,8.0,23.0,2022-10,10.2
+2022-10-13,07:34:00,07:42:00,10.8,"Consultorio Nestor Fernandez, Olegario Henriquez",0,0,1,0,B-3,Activacion alarma de humo,08:13:00,8.0,31.0,2022-10,10.8
+2022-10-13,16:22:00,16:28:00,10.8,Las alpacas con los alamos,0,0,1,0,B-3,Bengala de embarcacion,17:23:00,6.0,55.0,2022-10,10.8
+2022-10-13,17:34:00,17:45:00,10.3.1,Enriqueta N. 7,0,0,1,0,B-3,Perro atrapado en pozo,18:21:00,11.0,36.0,2022-10,10.3
+2022-10-14,12:42:00,12:47:00,10.4.1,Avenida Barros Luco con 1 Norte,1,0,0,0,RX-1,"Colision vehiculo mayor con taxi colectivo, atropello adulto mayor",12:56:00,5.0,9.0,2022-10,10.4
+2022-10-16,09:02:00,09:14:00,10.1,Camino antiguo a Cartagena con 18 de septiembre,1,0,0,0,B-1,"Incendio de vehiculo, apoyo al CB de Cartagena",09:55:00,12.0,41.0,2022-10,10.1
+2022-10-16,14:43:00,14:48:00,10.0,Enriqueta con Arturo Pratt,1,1,0,0,B-1-B-2,Quema de basura y pasto,15:03:00,5.0,15.0,2022-10,10.0
+2022-10-17,12:47:00,12:53:00,10.7,Juan Leyton N. 1078,1,0,0,0,B-1,Principio de incendio al interior de domicilio,13:38:00,6.0,45.0,2022-10,10.7
+2022-10-17,14:50:00,14:56:00,10.4.3,Acceso al puerto,1,0,1,0,RX-1-R-1-B-3,"Volcamiento de vehiculo mayor, derrame de combustible",15:25:00,6.0,29.0,2022-10,10.4
+2022-10-17,18:50:00,18:56:00,10.0,Baquedano con las ñipas,1,0,0,0,B-1,Fuego y humo de subterraneo de ex fundacion mi casa,19:58:00,6.0,62.0,2022-10,10.0
+2022-10-18,07:09:00,07:17:00,10.12x10.0,"Cartagena, sector estacion",1,0,0,0,B-1,"Incendio de casas, apoyo al cb de Cartagena",08:04:00,8.0,47.0,2022-10,10.0
+2022-10-19,03:59:00,04:07:00,10.6.1,Pasaje Santos Fernandez N. 368,0,0,1,0,B-3,Fuga de glp desde cilindro de 11 kilos,04:14:00,8.0,7.0,2022-10,10.6
+2022-10-21,17:51:00,17:55:00,10.5,Soledad N. 112,0,0,1,0,B-3,Rotura de termometro,18:15:00,4.0,20.0,2022-10,10.5
+2022-10-21,18:48:00,19:01:00,10.6.1,Augusto Abarca N. 922,0,0,1,0,B-3,Emanacion de gas desde cilindro de 45 kilos,20:15:00,13.0,74.0,2022-10,10.6
+2022-10-23,21:43:00,21:52:00,10.8,"Pasaje 4 esquinas, Placilla",0,1,0,0,R-2,Vehiculo al borde de quebrada,22:12:00,9.0,20.0,2022-10,10.8
+2022-10-25,13:38:00,13:48:00,10.2.1,Vertedero,0,1,1,0,B-2-BT-3,Quema de basura y pasto,14:44:00,10.0,56.0,2022-10,10.2
+2022-10-25,20:03:00,20:06:00,10.4.1,Calle España con 3 norte,1,1,0,0,RX-1-B-2,"Colision de vehiculos menores,3 lesionados",20:24:00,3.0,18.0,2022-10,10.4
+2022-10-26,07:52:00,08:07:00,10.4.1,"subida al tranque, San Juan",1,0,0,1,RX-1-B-4,Colision de vehiculo menor,08:48:00,15.0,41.0,2022-10,10.4
+2022-10-26,15:49:00,15:51:00,10.4.1,Juan Aspee con Angamos,1,0,1,0,RX-1-B-3,Colision de dos vehiculos menores,16:07:00,2.0,16.0,2022-10,10.4
+2022-10-26,16:03:00,16:10:00,10.4.1,subida de puente Arevalo,1,1,0,0,R-1-B-2,Colision de vehiculo menor con motorista,16:37:00,7.0,27.0,2022-10,10.4
+2022-10-26,22:03:00,22:06:00,10.0,caleta San Pedro,0,1,0,0,B-2,Mejora en fase de decaimiento,22:24:00,3.0,18.0,2022-10,10.0
+2022-10-27,15:53:00,16:00:00,10.4.1,calle Samuel Garcia con Napoles,1,0,0,0,RX-1,Choque de camion contra poste,16:57:00,7.0,57.0,2022-10,10.4
+2022-10-27,23:27:00,23:34:00,10.0,"pasaje la ruda, Bellavista",1,1,0,0,B-1-B-2,Principio de incendio en casa habitacion,23:44:00,7.0,10.0,2022-10,10.0
+2022-10-28,07:41:00,07:47:00,10.4.1,puente Arevalo,1,1,0,0,RX-1-B-2,Colision de vehiculos menores,08:12:00,6.0,25.0,2022-10,10.4
+2022-10-28,13:40:00,13:44:00,10.2.1,Enriqueta con Arturo Pratt,0,1,0,0,B-2,Quema de basura y pasto,13:52:00,4.0,8.0,2022-10,10.2
+2022-10-28,18:10:00,18:50:00,10.12x10.2.2,Apoyo al CB de Melipilla,0,0,0,1,BX-4,apoyo al CB de Melipilla,22:34:00,40.0,224.0,2022-10,10.2
+2022-10-29,14:48:00,14:54:00,10.0,estrella de Belen S/N,0,1,0,0,B-2,Fuego en ruco,15:12:00,6.0,18.0,2022-10,10.0
+2022-10-29,17:30:00,17:36:00,10.2.1,"Sector feria mayorista, Bellavista",0,1,0,0,B-2,Quema de basura y pasto,17:54:00,6.0,18.0,2022-10,10.2
+2022-10-29,17:33:00,17:46:00,10.4.1,Errazuriz con Arzobispo Valdivieso,1,0,0,0,RX-1,Colision de dos vehiculos menores,17:50:00,13.0,4.0,2022-10,10.4
+2022-10-30,01:51:00,02:02:00,10.2.1,"Circunvalacion, acceso al puerto",0,0,1,0,B-3,Quema de basura y pasto,02:04:00,11.0,2.0,2022-10,10.2
+2022-10-30,02:17:00,02:20:00,10.0,Enriqueta con Arturo Pratt,0,1,0,0,B-2,Caseta de guardias en llamas,02:44:00,3.0,24.0,2022-10,10.0
+2022-10-30,11:42:00,11:48:00,10.4.3,Cruce de Malvilla,1,0,0,0,R-1-RX-1,Corte de direccion de bus,11:53:00,6.0,5.0,2022-10,10.4
+2022-10-30,17:39:00,17:46:00,10.0,las perdices N. 1637,0,0,1,0,B-3,Inflamacion de cocina,18:09:00,7.0,23.0,2022-10,10.0
+2022-10-31,11:43:00,11:51:00,10.1,Libertad con Manuel Rodriguez,1,0,0,0,B-1,Incendio de vehiculo menor,12:09:00,8.0,18.0,2022-10,10.1
+2022-10-31,19:04:00,19:14:00,10.6.2,Nelson Roumuat N. 749,1,0,1,0,B-1-B-3,Emanacion minima de gas,20:15:00,10.0,61.0,2022-10,10.6
+2022-10-31,23:07:00,23:14:00,10.2.1,Manuel Bulnes con R. Barahona,0,1,0,0,B-2,Quema de basura y pasto,23:19:00,7.0,5.0,2022-10,10.2
 2022-07-01,10:19:00,10:24:00,10.4.1,Sanfuentes con 4 Sur,1,1,0,0,Q-2/RX-1,Colision de dos vehiculos menores,10:46:00,5.0,22.0,2022-07,10.4
 2022-07-01,19:29:00,19:40:00,10.4.1,"Cerro la virgen, cerro alegre",1,0,1,0,RX-1/B-3,Camioneta cae a quebrada,20:02:00,11.0,22.0,2022-07,10.4
 2022-07-01,22:58:00,23:02:00,10.4.3,Puente lo Gallardo,1,0,1,0,R-1/RX-1/B-3,Colision de vehiculo mayor/menor,23:40:00,4.0,38.0,2022-07,10.4

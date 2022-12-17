@@ -1490,6 +1490,63 @@ Fecha,Hora_del_llamado,Hora_de_primera_respuesta,Tipo_de_emergencias,Dirección,
 2021-08-31,18:16:00,18:40:00,10.4.3,"Autopista del sol, kilometro 85",1,0,1,1,R-1/RX-1/H-3/B-4,Colision por alcance de vehiculos mayores,19:25:00,24.0,45.0,2021-08,10.4
 2021-08-31,22:06:00,22:19:00,10.8,"Final de calle Florencia, alto mirador",1,0,0,0,B-1,"Quema de pequeña extension, pastizal y basura",22:39:00,13.0,20.0,2021-08,10.8
 2021-08-31,23:03:00,23:11:00,10.1,"autopista del sol, kilometro 91500",1,0,1,1,B-1/B-3/B-4/Z-0,Vehiculo incendiado,23:40:00,8.0,29.0,2021-08,10.1
+2022-11-01,03:50:00,03:55:00,10.4.1,San Antonio de las bodegas con Balmaceda,1,1,0,0,RX-1-B-2,Colision de vehiculos menores,04:06:00,5.0,11.0,2022-11,10.4
+2022-11-01,13:25:00,13:43:00,10.2.1,"Leyda, kilometro 92",0,0,0,1,BX-4,Quema de basura y pasto,14:19:00,18.0,36.0,2022-11,10.2
+2022-11-01,17:35:00,17:41:00,10.3.1,"Avenida Barros Luco, supermercado Lider",1,0,0,0,RX-1,Caida de persona adulta,17:58:00,6.0,17.0,2022-11,10.3
+2022-11-01,18:58:00,19:39:00,10.12x10.2.2,Fundo el guanaco,0,0,1,1,BT-3-BX-4,Apoyo al CB de Cartagena,22:17:00,41.0,158.0,2022-11,10.2
+2022-11-02,09:43:00,09:52:00,10.6.2,Juana dip N. 1981,1,0,1,0,B-1-B-3,Olor a gas en ambiente,10:22:00,9.0,30.0,2022-11,10.6
+2022-11-02,12:13:00,12:20:00,10.4.2,Julio Letelier con Bruselas,1,1,0,0,RX-1-B-2,Colision de vehiculo menor con colectivo,12:50:00,7.0,30.0,2022-11,10.4
+2022-11-02,14:20:00,14:27:00,10.7,Jackson N. 1830,0,0,1,0,B-3,Caida de poste de alumbrado publico,14:53:00,7.0,26.0,2022-11,10.7
+2022-11-03,22:50:00,22:56:00,10.0,Alan Macowan S/N,1,1,0,0,B-1-B-2,Incendio estructural de edificio abandonado,23:28:00,6.0,32.0,2022-11,10.0
+2022-11-04,19:46:00,19:55:00,10.4.3,Aguas Buenas S/N,1,0,1,0,R-1-RX-1-B-3,Volcamiento de camion mediano,20:23:00,9.0,28.0,2022-11,10.4
+2022-11-06,01:28:00,01:32:00,10.4.1,"Camino a San Juan, kilometro 1320",1,0,0,1,RX-1-B-4,Choque de vehiculo menor contra muro,01:55:00,4.0,23.0,2022-11,10.4
+2022-11-06,21:08:00,21:13:00,10.0,Gregorio Mira con Huallipen,0,1,0,0,B-2,Incendio compartimental,21:34:00,5.0,21.0,2022-11,10.0
+2022-11-06,22:05:00,22:09:00,10.4.1,"Maule, sector hospital",1,1,0,0,RX-1-B-2,Colision de dos vehiculos menores,22:17:00,4.0,8.0,2022-11,10.4
+2022-11-07,05:29:00,05:34:00,10.2.1,San Antonio de las bodegas,0,1,0,0,B-2,Quema de neumaticos,05:42:00,5.0,8.0,2022-11,10.2
+2022-11-07,18:43:00,18:55:00,10.2.1,Puente Lo Gallardo,0,0,0,1,BX-4,Quema de matorrales,19:53:00,12.0,58.0,2022-11,10.2
+2022-11-08,13:57:00,14:01:00,10.0,Aromos con Avenida Chile,0,0,1,0,B-3,Incendio estructural,14:32:00,4.0,31.0,2022-11,10.0
+2022-11-08,21:25:00,21:26:00,10.4.3,Avenida Chile con Jose Miguel Carrera,1,0,1,0,RX-1-R-1-B-3,Colision de vehiculo mayor con vehiculo particular,21:38:00,1.0,12.0,2022-11,10.4
+2022-11-09,09:29:00,09:42:00,10.0,"Bellavista, Holanda",1,0,0,0,B-1,Incendio en casa de madera,10:02:00,13.0,20.0,2022-11,10.0
+2022-11-09,15:41:00,15:50:00,10.1,cruce de Cartagena,0,1,0,0,B-2,Incendio en vehiculo,16:18:00,9.0,28.0,2022-11,10.1
+2022-11-09,17:11:00,17:15:00,10.4.1,"Rotonda Curico, Barrancas",1,0,1,0,RX-1-B-3,Choque de vehiculo menor contra barrera de contension,17:43:00,4.0,28.0,2022-11,10.4
+2022-11-10,09:02:00,09:13:00,10.6.2,Colegio el retiro,0,0,1,1,B-3-B-4,Fuga de gas desde cilindro,09:35:00,11.0,22.0,2022-11,10.6
+2022-11-10,11:50:00,11:57:00,10.0,Avenida Barros Luco N. 2394,1,0,0,0,B-1,"Principio de incendio, controlado por personas del lugar",12:27:00,7.0,30.0,2022-11,10.0
+2022-11-10,13:26:00,13:37:00,10.3.2,Luis Gonzalez N. 714,0,1,0,0,MX-2,"Persona atrapada, derrumbe",15:57:00,11.0,140.0,2022-11,10.3
+2022-11-10,22:18:00,22:26:00,10.0,Aguas Buenas S/N,1,1,0,0,B-1-B-2,Principio de incendio en bodega,22:37:00,8.0,11.0,2022-11,10.0
+2022-11-11,09:57:00,10:07:00,10.8,"Colinas de Llolleo 1, los linderos 1389",0,0,1,0,B-3,Abrir departamento,10:17:00,10.0,10.0,2022-11,10.8
+2022-11-13,08:32:00,08:40:00,10.2.1,San Pedro S/N,0,0,1,0,B-3,Quema de basura,08:45:00,8.0,5.0,2022-11,10.2
+2022-11-13,21:36:00,21:47:00,10.2.1,Sector Pelancura,0,1,0,0,B-2,Quema de basura,21:49:00,11.0,2.0,2022-11,10.2
+2022-11-14,04:39:00,04:45:00,10.2.1,Avenida Bernado Ohiggins S/N,1,0,0,0,B-1,Barricada,04:50:00,6.0,5.0,2022-11,10.2
+2022-11-14,23:03:00,23:17:00,10.2.1,Camino antiguo a Cartagena,0,1,0,0,B-2,Quema de pasto y basura,23:36:00,14.0,19.0,2022-11,10.2
+2022-11-15,14:21:00,14:37:00,10.2.1,Camino antiguo a Cartagena,0,1,0,0,B-2,Quema de pasto y basura,15:16:00,16.0,39.0,2022-11,10.2
+2022-11-16,13:15:00,13:19:00,10.2.1,Aromos con Avenida Chile,0,0,1,0,B-3,Quema de pasto y basura,13:34:00,4.0,15.0,2022-11,10.2
+2022-11-17,11:53:00,12:00:00,10.6.2,"Cumbres de miramar 2, depto 1311",0,1,0,0,B-2-H-3,Olor a gas en ambiente,12:33:00,7.0,33.0,2022-11,10.6
+2022-11-17,13:58:00,14:02:00,10.4.1,Sanfuentes con 4 Sur,1,1,0,0,RX-1-B-2,Colision de dos vehiculos menores,14:19:00,4.0,17.0,2022-11,10.4
+2022-11-18,10:40:00,10:48:00,10.6.2,Manuel Montt con Roberto Parra,1,0,1,0,B-1-H-3,Olor desconocido en el ambiente,11:03:00,8.0,15.0,2022-11,10.6
+2022-11-18,17:40:00,17:44:00,10.4.1,Avenida Barros Luco,1,1,0,0,RX-1-B-2,Colision de vehiculos menores,18:27:00,4.0,43.0,2022-11,10.4
+2022-11-18,18:06:00,18:50:00,10.12x10.2.2,"Fundo Santa Rosa, Melipilla",0,0,1,0,BT-3,Apoyo al CB de Melipilla,00:24:00,44.0,334.0,2022-11,10.2
+2022-11-19,20:07:00,20:09:00,10.0,2 Norte con Sanfuentes,1,0,0,0,B-1,Fuego en casa habitacion,20:34:00,2.0,25.0,2022-11,10.0
+2022-11-19,21:12:00,21:35:00,10.4.1,"Cruce de Cartagena, camino a San Sebastian",1,0,1,0,RX-1-B-3,"Atropello de persona, fallecida",21:42:00,23.0,7.0,2022-11,10.4
+2022-11-20,00:07:00,00:17:00,10.2.1,San Antonio de las bodegas,0,1,0,0,B-2,Quema de pasto y basura,00:31:00,10.0,14.0,2022-11,10.2
+2022-11-20,20:36:00,20:46:00,10.4.1,Cruce de Cartagena,1,1,0,0,RX-1-B-2,Colision de vehiculos menores,20:55:00,10.0,9.0,2022-11,10.4
+2022-11-21,11:44:00,11:56:00,10.2.1,Camino antiguo a Cartagena,0,1,1,0,B-2-BT-3,Incendio en basural clandestino,13:21:00,12.0,85.0,2022-11,10.2
+2022-11-21,13:42:00,14:20:00,10.12x10.2.2,Fundo las palmas,0,0,1,0,BT-3,"Incendio forestal, apoyo al CB de Cartagena",16:13:00,38.0,113.0,2022-11,10.2
+2022-11-22,12:00:00,12:29:00,10.2.2,Autodromo de San Juan,0,0,1,1,BT-3-BF-4,Quema de pastizal,16:09:00,29.0,220.0,2022-11,10.2
+2022-11-22,19:07:00,19:23:00,10.2.1,Golfo Ancud N. 1190,1,0,0,0,B-1,Quema de pasto y basura,19:34:00,16.0,11.0,2022-11,10.2
+2022-11-23,11:33:00,11:38:00,10.4.1,"Avenida Baquedano, frente a escuela España",1,0,1,0,RX-1-B-3,Colision de dos vehiculos menores,11:48:00,5.0,10.0,2022-11,10.4
+2022-11-23,21:37:00,21:49:00,10.2.1,"Los Molles, aguas buenas",0,1,0,0,B-2,Barricada,22:12:00,12.0,23.0,2022-11,10.2
+2022-11-25,05:32:00,05:41:00,10.2.1,"Bello horizonte, Bellavista",0,1,0,0,B-2,Quema de basura,05:46:00,9.0,5.0,2022-11,10.2
+2022-11-25,07:51:00,07:57:00,10.4.1,Walter Martinez con Arzobispo Valdivieso,1,0,1,0,RX-1-B-3,Colision y volcamiento de vehiculo,08:08:00,6.0,11.0,2022-11,10.4
+2022-11-25,13:05:00,13:12:00,10.4.2,"Bellavista, Holanda",1,1,0,0,RX-1-B-2,Choque de vehiculo de locomocion colectiva,13:39:00,7.0,27.0,2022-11,10.4
+2022-11-25,20:45:00,20:51:00,10.2.1,Ginebra con Aromos,0,0,1,0,B-3,Quema de pastizal,21:12:00,6.0,21.0,2022-11,10.2
+2022-11-26,00:56:00,01:07:00,10.4.1,acceso al puerto,1,0,1,0,RX-1-B-3,Volcamiento de vehiculo menor,01:43:00,11.0,36.0,2022-11,10.4
+2022-11-26,02:53:00,03:00:00,10.0,Hermanos Carrera N. 121,1,1,0,0,B-1-B-2,Incendio en habitacion de casa,03:16:00,7.0,16.0,2022-11,10.0
+2022-11-26,22:55:00,22:59:00,10.4.1,"Avenida Barros Luco, frente al Mall",1,1,0,0,RX-1-B-2,Colision de vehiculo menor con camion mediano,23:09:00,4.0,10.0,2022-11,10.4
+2022-11-27,05:47:00,06:01:00,1º alarma de incendio,"Toma la ballena, Cartagena",1,1,1,0,B-1-B-2-B-3,Incendio estructural en fase de decaimiento,07:04:00,14.0,63.0,2022-11,10.0
+2022-11-27,22:55:00,23:08:00,10.2.1,"Los conquistadores, Bellavista",0,1,0,0,B-2,Quema de pastizal y basura,23:19:00,13.0,11.0,2022-11,10.2
+2022-11-28,00:10:00,00:28:00,10.2.1,ginebra con Flor Mora,0,0,1,1,B-3-BX-4,Quema de pastizal,00:48:00,18.0,20.0,2022-11,10.2
+2022-11-28,07:05:00,07:35:00,10.12x10.0,El convento,0,0,1,0,B-3,Incendio en fase de decaimiento,10:45:00,30.0,190.0,2022-11,10.0
+2022-11-30,21:54:00,22:06:00,10.2.1,Camino antiguo a Cartagena,0,1,0,0,B-2,Incendio en vertedero,23:42:00,12.0,96.0,2022-11,10.2
 2020-04-01,19:42:00,19:47:00,10.3.1,Subida a Placilla,0,1,0,0,,Rescate de perro entre rejas,19:57:00,5.0,10.0,2020-04,10.3
 2020-04-02,14:33:00,14:43:00,10.3.1,"Oscar Castro N.570, Bellavista",0,1,0,0,,Corte anillo,14:59:00,10.0,16.0,2020-04,10.3
 2020-04-02,07:34:00,07:38:00,10.4.1,Estacion de servicios Rafael Letelier,1,1,0,0,,Colision de vehiculo particular con motorista,07:45:00,4.0,7.0,2020-04,10.4
